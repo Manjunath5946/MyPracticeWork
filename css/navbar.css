@@ -1,0 +1,16 @@
+.navbar-container{
+    background-color: brown;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: #78b1b1;
+}
+
+/* to delete underline from home,contactus */
+div.navbar-container a{
+    text-decoration: none;
+}
+
+/* to delete uderline from manjunath but if it  dirceltly given to a href then in apply to all as contains home,contactus and manjunath  */
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.first-div{
+border: 1px solid black;
+height: 200px;
+width: 200px;
+background-color: aqua;
+position: relative;
+z-index: -1;
+              /* if zindex is 1 then element will be shoen front and if its -1 then it shown backwords  
+               and right,left,top,bootom, zindex will not work unless we add positin property having value apart from static positon*/
+}
+
+.sec-div{
+border: 1px solid black;
+height: 100px;
+width: 100px;
+background-color: rgb(40, 90, 40);
+position: absolute;
+top: 150px;
+left: 140px;
+}
+
+.image-container{
+    float: right;
+}

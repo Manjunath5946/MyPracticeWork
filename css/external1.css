@@ -1,0 +1,24 @@
+/* Elemet selector */
+h2{
+    color: pink;
+}
+p{
+    color: blue;
+}
+
+
+/* class selector */
+/* Syntax: .(period operator)className{pro:val} */
+.container{
+    color: brown;
+}
+.address-container{
+    color: blue;
+    background-color: burlywood;
+    font-size: 30px;
+    width: 240px;
+    height: 43px;
+    padding: 22px;
+    border: 1px solid;
+    border-radius: 41px;
+}

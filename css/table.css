@@ -1,0 +1,14 @@
+.table-main{
+    border: 1px solid coral;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+
+table,tr,th,td{
+    border: 1px solid cyan;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}

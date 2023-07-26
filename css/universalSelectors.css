@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    color: blue;
+    font-size: 30px;
+}
+
+/* pseudoclass selctor: hover,active,link etc */
+div h2:hover{
+    background-color: blueviolet;
+}
+
+a:active{
+    color: violet;
+}
+
+h4::first-letter{
+    color: yellow;
+    font-size: 50px;
+}
+h5::first-line{
+    color: turquoise;
+}
+h6::selection{
+    color: rgb(240, 40, 13);
+    background-color: yellow;
+}

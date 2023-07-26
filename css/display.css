@@ -1,0 +1,28 @@
+.disp{
+    display: inline;
+    background-color: aqua;
+}
+
+.disp1{
+    display: none;
+}
+
+.disp2{
+    display: block;
+    border: 1px dotted;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 150px;
+}
+
+.disp3{
+    display: inline-block;
+    border: 1px dotted;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 150px;
+}
+
+.newspaper{
+    column-count: 4;
+}

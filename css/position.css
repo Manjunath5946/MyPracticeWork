@@ -1,0 +1,63 @@
+
+.pos{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.pos1{
+    position: static;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.rel{
+    position: relative;
+    border: 1px solid black;
+    height: 65px;
+    width: 100px;
+    top: 20px;
+}
+
+.abs{
+    position: absolute;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    top: 60px;
+    left: 698px
+}
+
+.stick{
+    position: sticky;
+    border:1px solid black;
+    z-index: 1;
+    width: 1406px;
+    background-color: chartreuse;
+    top: 0px; 
+}
+
+.footer{
+border: 1px solid black;
+width: 1406px;
+background-color: aqua;
+position: fixed;
+bottom: 0px;
+}
+
+.sidebar{
+    position: relative;
+    height: 1000px;
+    width: 100px;
+    border: 1px solid green;
+    background-color: darksalmon;
+}
+
+.container{
+    position: absolute;
+    top: 21px;
+    left: 115px;
+    padding: 5px 5px;
+}
+

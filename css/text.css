@@ -1,0 +1,54 @@
+.text-prop{
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.text-prop1{
+margin-left: 50px;
+}
+
+.textshadow-prop{
+    font-size: 80px;
+    text-shadow:5px 5px 5px blue ;       /*values= horizontal s, ver s, blur effect,color */
+}
+
+.textShadowBox-prop{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: aqua; 
+    box-shadow: 5px 5px 13px #504752;
+}
+
+.text-trnsform-prop{
+    text-transform: capitalize;         /* uppercase,lowercase,capitalize */
+}
+
+.text-overflw{
+    width: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;  /* text overflow we have  to use with overflow prorperty as value =ellipsie,clip    */
+}
+
+.overflw{
+    width: 300px;
+    overflow: auto;
+    height: 150px;      /*  overflow value=auto,scroll,visible,hidden,clip,overflow y,overflow x  */
+}
+
+.word-prop{
+    width: 98px;
+    border: 1px solid black;
+    word-wrap: break-word;  
+}
+
+.word-prop1{
+    width: 50px;
+    border: 1px solid black;
+    word-break: break-all;  /*  values= break all,keep all,  break word*/
+}
+
+
